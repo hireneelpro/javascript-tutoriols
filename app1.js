@@ -72,31 +72,41 @@
 
 
 // ===========to do total of arrary===========
-let gas = [50, 30, 30];
-let food = [20, 30,25, 35, 45];
-let total
-function subtotal(arr) {
-    let total = 0;
-    for (let i = 0; i < arr.length; i++)
-    {total=total + arr[i]
+// let gas = [50, 30, 30];
+// let food = [20, 30,25, 35, 45];
+// let total
+// function subtotal(arr) {
+//     let total = 0;
+//     for (let i = 0; i < arr.length; i++)
+//     {total=total + arr[i]
         
-    }
-    return(total)
-}
+//     }
+//     return(total)
+// }
 
-const gastotal = subtotal(gas);
-console.log(`Total gas= ${gastotal}`);
+// const gastotal = subtotal(gas);
+// console.log(`Total gas= ${gastotal}`);
 
-const foodtotal = subtotal(food);
-console.log(`Total food= ${foodtotal}`);
-const alltotal = gastotal + foodtotal;
-console.log(`Total of all expence ${alltotal}`)
-if (alltotal >= 300) {
-    console.log('you are spending too much')
+// const foodtotal = subtotal(food);
+// console.log(`Total food= ${foodtotal}`);
+// const alltotal = gastotal + foodtotal;
+// console.log(`Total of all expence ${alltotal}`)
+// if (alltotal >= 300) {
+//     console.log('you are spending too much')
+// }
+// else {
+//     console.log('you are ok for more spending')
+// }
+
+console.log('hello everyone');
+function morning() {
+    let m = 'good morning';
+    return(m)
 }
-else {
-    console.log('you are ok for more spending')
+function hello(name, cb) {
+    console.log(`my name is hiren ${cb} ${name.toUpperCase()}`)
 }
+hello('rajesh',morning())
 
 
 
