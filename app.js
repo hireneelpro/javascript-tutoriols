@@ -1,4 +1,4 @@
-document.write("hello world");
+// document.write("hello world");
 // alert("hello people");
 // console.log("hello world");
 // let x = " hiren b patel";

@@ -149,7 +149,7 @@ ul {
 .btn:hover {
   background-color: var(--primary-clr-5);
   color: var(--white-clr);
-  box-shadow: var(--dark-shadow);
+  box-shadow: var(--light-shadow);
 }
 .btn-block {
   width: 100%;
@@ -196,4 +196,14 @@ p{
   100%{
     transform: rotate(360deg);
   }
+}
+.main{
+  border: 5px solid red;
+}
+.red{
+  font-size: 2rem;
+  color: green;
+  background-color: yellow;
+  margin: 0;
+  padding: 2rem;
 }
